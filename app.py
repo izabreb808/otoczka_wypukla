@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 import matplotlib
-matplotlib.use("Agg")  # <- TO DODAJ!
+matplotlib.use("Agg") 
 import matplotlib.pyplot as plt
 import os
 
