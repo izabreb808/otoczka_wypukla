@@ -84,7 +84,7 @@ def index():
         plt.savefig(plot_path)
         plt.close()
 
-        return render_template("index.html", image="plot.png", message=message)
+        return render_template("index.html", image="plot.png", message=message, points=points, convex_hull=ch)
 
     return render_template("index.html")
 

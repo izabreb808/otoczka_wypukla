@@ -101,7 +101,9 @@
     {% endif %}
 
     {% if image %}
-        <h2>Wynik:</h2>
+        <p style="margin-top: 20px; font-size: 18px; font-weight: 600; color: #004d40;">
+            Dla punktów {{ points }}, otoczka wypukła to {{ convex_hull }}.:
+        </p>
         <img src="{{ url_for('static', filename=image) }}" alt="Wykres otoczki">
     {% endif %}
 
