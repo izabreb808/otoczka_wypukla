@@ -57,8 +57,10 @@ def index():
             message = "Otoczka wypukła jest trójkątem."
         elif len(ch) == 2:
             message = "Otoczka wypukła jest prostą."
-        else:
+        elif len(ch) == 1:
             message = "Otoczka wypukła jest punktem."
+        else:
+            message = "Otoczka wypukła jest wielokątem."
 
         # Skrypt wyświetlający układ współrzędnych z punktami oraz otoczką wypukłą
 
